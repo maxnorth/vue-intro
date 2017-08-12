@@ -2,11 +2,11 @@ var path = require("path");
 
 module.exports = {
     entry: {
-        demo1: "./demo1/entry.js"
+        "demo1": "./demo1/entry.js"
     },
     output: {
         path: path.join(__dirname, "../docs/demos"),
-        filename: "[name].entry.js"
+        filename: "[name].js"
     },
     resolve: {
         alias: {
